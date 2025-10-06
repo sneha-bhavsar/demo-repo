@@ -1,0 +1,210 @@
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   names.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo-repo/
+
+PS C:\Users\SnehaBhavsagit status - Calfus\project>       
+On branch master
+
+No commits yet
+
+Changes to be committed:     
+  (use "git rm --cached <file>..." to unstage)
+        new file:   names.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo-repo/
+
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:     
+  (use "git rm --cached <file>..." to unstage)
+        new file:   names.txt
+
+Untracked files:
+itted)
+        demo-repo/
+        index.html
+
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project>git add index.html
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git status        
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+        new file:   names.txt
+
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> gut commit
+gut : The term 'gut' is
+not recognized as the name
+of a cmdlet, function,
+script file, or operable
+program. Check the
+
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> gut commit
+gut : The term 'gut' is
+not recognized as the name
+of a cmdlet, function,
+script file, or operable
+program. Check the
+spelling of the name, or
+if a path was included,
+verify that the path is
+correct and try again.
+gut : The term 'gut' is
+not recognized as the name
+of a cmdlet, function,
+script file, or operable
+program. Check the
+script file, or operable
+program. Check the
+program. Check the
+spelling of the name, or
+if a path was included,
+verify that the path is
+correct and try again.
+At line:1 char:1
++ gut commit
++ ~~~
+    + CategoryInfo
+     : ObjectNotFound: (g
+  ut:String) [], Command
+ NotFoundException
+    + FullyQualifiedErrorI
+   d : CommandNotFoundExc
+  eption
+
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git commit
+Aborting commit due to empty commit message.
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git commit -m "index.html added"
+[master (root-commit) 935a16e] index.html added
+ Committer: Sneha Bhavsar <sneha.bhavsar@calfus.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+.email you@example.com      
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 0 insertions(+), 0 deletions(-)       
+ create mode 100644 index.html
+ create mode 100644 names.txt
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git status
+o include in what will be committed)
+        demo-repo/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+o include in what will be committed)
+        demo-repo/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git branch          
+* master
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git branch -M main
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git branch
+* main
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        demo-repo/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git push -u origin main
+>>
+fatal: 'origin' does not appear to be a git repository  
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights     
+and the repository exists.  
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git remote add origin https://github.com/sneha-bhavsar/demo-repo
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git push -u origin main
+>>                          
+info: please complete authentication in your browser... 
+To https://github.com/sneha-bhavsar/demo-repo
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/sneha-bhavsar/demo-repo'     
+neha-bhavsar/demo-repo'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caant to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.  
+PS C:\Users\SnehaBhavsargit pull origin main --rebase
+>>
+error: cannot pull with rebase: You have unstaged changes.
+error: Please git add index.htmlem.   
+>> git commit -m "Updated index.html"a
+>> s\project>
+[main 1b73fe3] Updated index.html
+ Committer: Sneha Bhavsar <sneha.bhavsar@calfus.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:       
+
+    git commit --amend --reset-author 
+
+ 1 file changed, 11 insertions(+)     
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git pull origin main --rebase
+>>
+remote: Enumerating objects: 6, done. 
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects:  50% (1/2remote: Compressing objects: 100% (2/2remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)       
+Unpacking objects: 100% (6/6), 1.73 KiB | 24.00 KiB/s, done.
+From https://github.com/sneha-bhavsar/demo-repo
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+Successfully rebased and updated refs/heads/main.
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project> git push -u origin main
+>>
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.   
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 765 bytes | 127.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sneha-bhavsar/demo-repo
+   45445d3..ca757bd  main -> main     
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\SnehaBhavsar\OneDrive - Calfus\project>
+
+
+
+
+
+
+
+
+
